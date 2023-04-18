@@ -117,5 +117,18 @@ ul {
 /* Tags */
 
 .tag {
+    display: inline-block;
+    width: 80px;
+    height: 40px;
+    color:white;
+    margin-left: 10px;
+    border-radius: 35%;
+    text-align: center;
+    font-size: 15px;
+    vertical-align: middle;
+    line-height: 40px;
+}
 
+.editorial {
+    background-color: rgb(8, 113, 184); 
 }
