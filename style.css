@@ -90,27 +90,36 @@ main {
 ul {
     list-style: none;
     margin-top: 30px;
+    margin-bottom: 50px;
     font-size: 20px;
     line-height: 25px;
+    
 }
 
-
+li {
+    padding-bottom: 15px;
+}
 
 /* symbols */ 
 
-.checkmark {
+.symbol {
     display: inline-block;
     height: 25px;
     width: 25px;
     margin-right: 5px;
-    color:green;
-    border: 2px solid green;
     border-radius: 50%;
+    border: 2px solid
+}
+
+.checkmark {
+    color:green;
+    border-color: green;
 
 }
 
 .cross {
-
+    color: rgb(128, 54, 54);
+    border-color: rgb(128, 54, 54);
 }
 
 .arrow {
@@ -123,16 +132,24 @@ ul {
 .tag {
     display: inline-block;
     width: 80px;
-    height: 40px;
+    height: 35px;
     color:white;
     margin-left: 10px;
-    border-radius: 35%;
+    border-radius: 45%;
     text-align: center;
     font-size: 15px;
     vertical-align: middle;
-    line-height: 40px;
+    line-height: 35px;
 }
 
 .editorial {
     background-color: rgb(8, 113, 184); 
+}
+
+.q1-goals {
+    background-color: rgb(121, 59, 121);
+}
+
+.recruiting {
+    background-color: rgb(76, 180, 131);
 }
