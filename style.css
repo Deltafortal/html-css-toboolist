@@ -22,7 +22,7 @@ body {
 }
 
 .separator {
-    height:5px;
+    height:3px;
     background-color: aquamarine;
 }
 
@@ -44,4 +44,27 @@ h1 {
 
 #logo > img {
     vertical-align: middle;
+}
+
+/* buttons */ 
+
+.site-head {
+    margin: 0 30px;
+    line-height: 60px;
+}
+
+header > input {
+    height:30px;
+    width: 80px;
+}
+
+.add-task{
+    background-color: rgb(8, 113, 184);
+    color:white;
+    border: none;
+
+}
+
+.add-section {
+    color: gray;
 }
