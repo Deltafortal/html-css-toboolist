@@ -14,6 +14,17 @@ body {
 
 /* Utilities */
 
+.container {
+    max-width: 1080px;
+    height: 800px;
+    background-color: white;
+    margin: auto;
+}
+
+.separator {
+    height:5px;
+    background-color: aquamarine;
+}
 
 
 /* Logo */ 
@@ -21,6 +32,7 @@ body {
 #logo {
     height: 100px;
     background-color:white;
+    margin: 0 50px 20px;
 }
 
 h1 {
